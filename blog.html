@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TouriZIM</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <script src="js/ajax_subscribe.js"></script>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-0">
+            <a href="" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-5 text-capitalize font-italic text-white"><span class="text-primary">TouriZIM</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav m-auto py-4">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About Us</a>
+                    <a href="filter.php" class="nav-item nav-link">Filter</a>
+                    <a href="blog.html" class="nav-item nav-link active">Newsletter</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+ <!-- Blog Start -->
+ <div class="containers">
+    <div id="blog-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100" src="img/blog-1.jpg" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <h4 class="display-4  m-0 mt-2 mt-md-3 text-white justify-content-center">Great Zimbabwe, Then</h4>
+                    <p class="display-4 text-white">The bustling utopia that thrived a long time ago</p>
+                    <a href="article_1.php" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4">Learn More</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="img/blog-2.jpg" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <h4 class="display-4 m-0 mt-2 mt-md-3 text-white text-md-left">Zimbabwe, A Beautiful Place</h4>
+                    <p class="display-4 text-white">The best place to travel</p>
+                    <a href="article_2.php" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
+            <div class="btn btn-primary rounded-circle" style="width: 45px; height: 45px;">
+                <span class="carousel-control-prev-icon mb-n2"></span>
+            </div>
+        </a>
+        <a class="carousel-control-next" href="#blog-carousel" data-slide="next">
+            <div class="btn btn-primary rounded-circle" style="width: 45px; height: 45px;">
+                <span class="carousel-control-next-icon mb-n2"></span>
+            </div>
+        </a>
+    </div>
+    <div class="container-fluid my-5 mb-5">
+        <div class="d-flex flex-column text-center mb-5">
+            <h1 class="m-0 text-primary">Articles from our Newsletter</h1>
+        </div>
+    </div>
+    
+    <div class="row pb-3">
+        <div class="col-lg-4 mb-4">
+            <div class="card mb-2 p-3">
+                <img class="card-img-top" src="img/blog-1.jpg" alt="">
+                <div class="card-body bg-secondary d-flex align-items-center p-0">
+                    <h6 class="card-title text-white text-truncate m-0 ml-3">Great Zimbabwe then</h6>
+                    <a href="article_1.php" class="fa fa-link d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white text-decoration-none m-0 ml-auto" style="width: 45px; height: 45px;"></a>
+                </div>
+                <div class="card-footer py-3 px-4">
+                    <div class="d-flex mb-2">
+                        <small class="mr-3"><i class="fa fa-user text-primary"></i>Aamilah</small>
+                        <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
+                    </div>
+                    <p class="m-0">The bustling utopia that thrived a long time ago.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card mb-2 p-3">
+                <img class="card-img-top" src="img/blog-2.jpg" alt="">
+                <div class="card-body bg-secondary d-flex align-items-center p-0">
+                    <h6 class="card-title text-white text-truncate m-0 ml-3">Zimbabwe, a Beautiful place</h6>
+                    <a href="article_2.php" class="fa fa-link d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white text-decoration-none m-0 ml-auto" style="width: 45px; height: 45px;"></a>
+                </div>
+                <div class="card-footer py-3 px-4">
+                    <div class="d-flex mb-2">
+                        <small class="mr-3"><i class="fa fa-user text-primary"></i>Dawood</small>
+                        <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
+                    </div>
+                    <p class="m-0">The best travel destination according to World Travel Magazine.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card mb-2 p-3">
+                <img class="card-img-top" src="img/blog-3.jpg" alt="">
+                <div class="card-body bg-secondary d-flex align-items-center p-0">
+                    <h6 class="card-title text-white text-truncate m-0 ml-3">Elephants Galore</h6>
+                    <a href="article_3.php" class="fa fa-link d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white text-decoration-none m-0 ml-auto" style="width: 45px; height: 45px;"></a>
+                </div>
+                <div class="card-footer py-3 px-4">
+                    <div class="d-flex mb-2">
+                        <small class="mr-3"><i class="fa fa-user text-primary"></i>Safiyyah</small>
+                        <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
+                    </div>
+                    <p class="m-0">The most Majestic Beast of the wilderness and their living</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blog End -->
+    <!-- Subscribe Start -->
+
+    <div class="container-fluid bg-primary my-5 py-5 text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="main-content">
+                    <div class="susbcribe-container">
+                        <div class="top">
+                            <h2>Subscribe Now</h2>
+                            <h3>Enroll for our <span>free</span> updates</h3>
+                        </div>							
+                            <div class="bottom">							
+                                <div class="status"></div>						
+                                <form action="#" id="subscribeForm" method="post">							
+                                    <input type="text" class="form-control" id="name" placeholder="Full Name" required="">	
+                                    <span class="text-danger hidden" id="nameError"></span>
+                                    <input type="email" class="form-control" id="email" placeholder="E-mail" required="">
+                                    <span class="text-danger hidden" id="emailError"></span>
+                                    <input type="button" id="subscribeButton" value="Subscribe Now">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Subscribe End --> 
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-4 col-md-12 mb-7">
+                <h1 class="mb-3 display-5 text-capitalize font-italic text-white"><span class="text-primary">TouriZIM</h1>
+                <p class="m-0">Registered as a private limited company by the year 2025 and will be under the tourism and travel industry with the name TouriZIM Ltd, with its main goal being promoting travel and tourism in Zimbabwe.</p>
+            </div>
+            <div class="col-lg-8 col-md-10">
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-primary mb-5">Quick Links</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                            <a class="text-white mb-2" href="filter.php"><i class="fa fa-angle-right mr-2"></i>Filter</a>
+                            <a class="text-white mb-2" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Newsletter</a>
+                            <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+            
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-primary mb-5">Get In Touch</h5>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>123 Harare Street, Harare, Zimbabwe</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+263 77 555 5555</p>
+                        <p><i class="fa fa-envelope mr-2"></i>tourizimnow@gmail.com</p>
+                        <div class="d-flex justify-content-start mt-4">
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="https://www.linkedincom/"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-3">
+            <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white">
+                    &copy; <a class="text-white font-weight-bold" href="#">TouriZIM</a>. All Rights Reserved.Designed by Aamilah Dawood   <a style="width: 40px; height: 40px;" href="https://github.com/Aamilah/"><i class="fab fa-github"></i></a>
+                </p>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <ul class="nav d-inline-flex">
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="privacy.html">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="terms.html">Terms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="help.html">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary border back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
